@@ -29,6 +29,11 @@ scatterChart1.setTitle("ScatterChart");
 
 ### Step 3: Create Data Group
 ```java
+// Create Data Group
+XYChart.Series<Double, Double> xyChart = new XYChart.Series<>();
+
+// Name Data Group
+xyChart.setName("Group 1");
 ```
 
 ### Step 4: Create Test Data
