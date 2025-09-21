@@ -3,20 +3,31 @@
 ### Step 1: Create Axes
 ```java
 // Create X-Axis
-NumberAxis xAxis2 = new NumberAxis();
+NumberAxis xAxis = new NumberAxis();
 
 // Name Axis
 xAxis2.setLabel("X-Axis");
 
-// Create X-Axis
-NumberAxis yAxis2 = new NumberAxis();
+// Create Y-Axis
+NumberAxis yAxis = new NumberAxis();
 
 // Name Axis
-yAxis2.setLabel("X-Axis");
+yAxis2.setLabel("Y-Axis");
 ```
 
-
-
 ### Step 2: Create Graph
+```java
+// Create ScatterChart by passing in xAxis and yAxis
+ScatterChart<Number, Number> scatterChart1 = new ScatterChart<Number, Number>(xAxis, yAxis);
+
+// Name the Chart
+scatterChart1.setTitle("ScatterChart");
+```
+
 ### Step 3: Create Data Group
+```java
+```
+
 ### Step 4: Create Test Data
+```java
+```
