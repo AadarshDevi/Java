@@ -21,16 +21,16 @@ yAxis2.setLabel("Y-Axis");
 ### Step 2: Create Graph
 ```java
 // Create ScatterChart by passing in xAxis and yAxis
-ScatterChart<Number, Number> scatterChart1 = new ScatterChart<Number, Number>(xAxis, yAxis);
+ScatterChart<Number, Number> scatterChart = new ScatterChart<Number, Number>(xAxis, yAxis);
 
 // Name the Chart
-scatterChart1.setTitle("ScatterChart");
+scatterChart.setTitle("ScatterChart");
 ```
 
 ### Step 3: Create Data Group
 ```java
 // Create Data Group
-XYChart.Series<Double, Double> xyChartSeries = new XYChart.Series<>();
+XYChart.Series<Double, Double> xyChartSeries1 = new XYChart.Series<>();
 
 // Name Data Group
 xyChart.setName("Group 1");
@@ -45,5 +45,10 @@ XYChart.Data<Double, Double> xyChartData3 = new XYChart.Data<>(1.3, 4,3);
 
 ### Step 5: Add Data to Group
 ```java
-xyChart.getData().addAll(xyChartData1, xyChartData2, xyChartData3);
+xyChartSeries1.getData().addAll(xyChartData1, xyChartData2, xyChartData3);
+```
+
+### Step 6: Add Group to Graph
+```java
+scatterChart.getData().add(xyChartSeries1);
 ```
