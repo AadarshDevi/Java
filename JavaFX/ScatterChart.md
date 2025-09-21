@@ -1,5 +1,8 @@
 # ScatterChart
 
+### Basic Info:
+If an fxml is being used, Step 1, 2 can be ignored.
+
 ### Step 1: Create Axes
 ```java
 // Create X-Axis
