@@ -57,9 +57,42 @@ I do not know if the below works.
 --input "My JavaFX Maven Project"
 ```
 
-2. --input target
-- this puts the code in the target folder of your javafx maven project.
+2. --main-jar
+- 
 
-2. --input target
-- this puts the code in the target folder of your javafx maven project.
+2. --main-class
+- 
+
+2. --type app-image
+- 
+
+2. --icon <Filepath/to/Icon.ico>
+- 
+
+2. --dest <TheFolder/where/the/built/project/will/beIn>
+- 
+
+2. --app-version 1.0.0
+- 
+
+2. --vendor MyCompany
+- 
+
+2. --verbose
+- 
+
+2. --module-path
+- 
+
+2. --add-modules
+- 
+
+2. --win-console
+- 
+
+2. --description
+- 
+
+2. --java-options
+- 
 
