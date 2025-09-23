@@ -52,47 +52,34 @@ Example:
 --input MyJavaFXMavenProject
 ```
 
-I do not know if the below works.
+> I do not know if the below works.
 ```cmd
 --input "My JavaFX Maven Project"
 ```
 
 2. --main-jar
-- 
 
 2. --main-class
-- 
 
 2. --type app-image
-- 
 
 2. --icon <Filepath/to/Icon.ico>
-- 
 
 2. --dest <TheFolder/where/the/built/project/will/beIn>
-- 
 
 2. --app-version 1.0.0
-- 
 
 2. --vendor MyCompany
-- 
 
 2. --verbose
-- 
 
 2. --module-path
-- 
 
 2. --add-modules
-- 
 
 2. --win-console
-- 
 
 2. --description
-- 
 
 2. --java-options
-- 
 
