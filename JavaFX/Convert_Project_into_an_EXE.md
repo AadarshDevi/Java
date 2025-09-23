@@ -42,10 +42,10 @@ jpackage
 **_From now on add the following tags._**
 
 2. --input target
-- this is where the generated jar file is located puts the code in the target folder of your javafx maven project.
+> this is where the generated jar file is located puts the code in the target folder of your javafx maven project.
 
 2. --name <ProjectName>
-- enter the project name
+> enter the project name
 
 Example:
 ```cmd
