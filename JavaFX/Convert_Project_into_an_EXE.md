@@ -28,3 +28,12 @@
 ```cmd
 mvn clean package
 ```
+### Step 3: Use JPackage to build the project
+This is a bit confusing but I will try to make it easy.
+
+1. Start with JPackage
+```cmd
+jpackage
+```
+
+From now on add the following tags.
