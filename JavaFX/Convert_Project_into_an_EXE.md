@@ -28,6 +28,9 @@
 ```cmd
 mvn clean package
 ```
+
+A jar file for your project is in `target` folder.
+
 ### Step 3: Use JPackage to build the project
 This is a bit confusing but I will try to make it easy.
 
@@ -37,3 +40,16 @@ jpackage
 ```
 
 **_From now on add the following tags._**
+
+2. --input target
+- this is where the generated jar file is located puts the code in the target folder of your javafx maven project.
+
+2. --name <ProjectName>
+- enter the project name
+
+2. --input target
+- this puts the code in the target folder of your javafx maven project.
+
+2. --input target
+- this puts the code in the target folder of your javafx maven project.
+
