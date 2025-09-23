@@ -36,4 +36,4 @@ This is a bit confusing but I will try to make it easy.
 jpackage
 ```
 
-From now on add the following tags.
+**_From now on add the following tags._**
