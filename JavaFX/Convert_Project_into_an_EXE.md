@@ -47,6 +47,16 @@ jpackage
 2. --name <ProjectName>
 - enter the project name
 
+Example:
+```cmd
+--input MyJavaFXMavenProject
+```
+
+I do not know if the below works.
+```cmd
+--input "My JavaFX Maven Project"
+```
+
 2. --input target
 - this puts the code in the target folder of your javafx maven project.
 
