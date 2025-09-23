@@ -1,5 +1,7 @@
 # Convert a JavaFX Maven Project into and EXE
 
+The entire process of this building and creating an exe file is done in the Command Prompt of the in the IDE
+
 ### Step 1: Add the Fat Jar Builder to `pom.xml`. Using Maven Shade
 ```xml
 <plugin>
