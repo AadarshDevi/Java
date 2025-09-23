@@ -83,3 +83,7 @@ Example:
 
 2. --java-options
 
+### Final command
+```cmd
+jpackage --input target --name FloatDataRecorder_2_0 --main-jar float_data_recorder_2-1.0-SNAPSHOT.jar --main-class com.alphagen.studio.float_data_recorder_2.Launcher --type app-image --icon D:\College\Clubs\Miramar_Engineering_Club\float_data_recorder_2_icon.ico --dest installer --app-version 2.0.0 --vendor MiramarWaterJets --verbose --module-path "C:\development\java\lib\javafx-sdk-23.0.1\lib;C:\development\java\lib\jSerialComm_v_2_11_2" --add-modules javafx.controls,javafx.fxml,javafx.graphics,java.desktop,javafx.swing,com.fazecast.jSerialComm --win-console --description "MateROV Float Data Recorder" --java-options "-Dprism.order=sw -Dprism.verbose=true -Djava.library.path=C:\development\java\lib\javafx-sdk-23.0.1\bin"
+```
