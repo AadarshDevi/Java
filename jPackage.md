@@ -5,6 +5,10 @@ jPackage is a java tool that comes with the JDK. This is used to convert java pr
 etc,. In this document, I will explain some of the flags/commands I used to create my .exe.
 
 NOTE: All the commands are done in Command Prompt in the MyProject root folder.
+In my command prompt I see that I am in my java project.
+```cmd
+PS D:\Projects\Java\MyProject>
+```
 
 The jar `myProject-1.0-SNAPSHOT.jar` is located in `/target` in the project.
 
