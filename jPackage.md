@@ -4,7 +4,7 @@
 jPackage is a java tool that comes with the JDK. This is used to convert java projects into .exe, .msi,
 etc,. In this document, I will explain some of the flags/commands I used to create my .exe.
 
-NOTE: All the commands are done in Command Prompt in the MyProject root folder.
+NOTE: All the commands are done in Command Prompt in the MyProject root folder.<br>
 In my command prompt I see that I am in my java project.
 ```cmd
 PS D:\Projects\Java\MyProject>
