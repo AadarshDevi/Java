@@ -45,21 +45,23 @@ This flag is used to name the .exe/.msi file.
 --name <projectName>
 ```
 #### Example
-Example:
 ```cmd
 --input MyProject
 ```
-Example:
 ```cmd
 --input "My Project"
 ```
+<br>
 
-> I do not know if the below works.
+### --main-jar
+This takes in the name of the jar file for input. Remember that this is .jar compiled.
 ```cmd
---input "My JavaFX Maven Project"
+--main-jar <nameOfJar.jar>
 ```
-
-2. --main-jar
+#### Example
+```cmd
+--main-jar myProject-1.0-SNAPSHOT.jar
+```
 
 2. --main-class
 
