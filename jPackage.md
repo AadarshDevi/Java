@@ -31,13 +31,16 @@ This is where the generated jar file is located puts the code in the target fold
 ```
 The input jar for `jpackage` is in `/target`
 ```cmd
+--input <folder/to/myProject-1.0-SNAPSHOT.jar>
+```
+```cmd
 --input target
 ```
 
 #### --name
 This flag is used to name the .exe/.msi file.
 ```cmd
---name MyProject
+--name <projectName>
 ```
 
 Example:
