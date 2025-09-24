@@ -199,12 +199,12 @@ I believe that this flag is used for vmargs the `String[] args` in `public stati
 #### Example
 ```cmd
 --java-options "-Djava.library.path=C:/java/lib/javafx-sdk-23.0.1/bin"
---java-options "-Dprism.order=sw -Djava.library.path=C:/java/lib/javafx-sdk-23.0.1/bin"
+--java-options "-Dprism.order=sw -Dprism.verbose=true -Djava.library.path=C:/java/lib/javafx-sdk-23.0.1/bin"
 ```
 <br>
 
 ## The Final jPackage Command
 This is the final command that is created with the above flags. Please double check and search for the flags your java project needs. This command might fail as it is possible.
 ```cmd
-jpackage --input target --input MyProject --main-jar myProject-1.0-SNAPSHOT.jar --main-class com.author.group.MyProject.Main --type app-image --icon D:\Projects\Java\MyProject\javaIcon.ico --dest installer --app-version 1.0.0 --vendor MyCompany --module-path "C:/java/javafx-sdk-23-0-1/lib;C:/java/lib/jSerialComm_v_2_11_2" --add-modules javafx.controls,javafx.fxml,javafx.graphics,java.desktop,javafx.swing,com.fazecast.jSerialComm --win-console --description "This is MyProgram" --java-options "-Dprism.order=sw -Djava.library.path=C:/java/lib/javafx-sdk-23.0.1/bin"
+jpackage --input target --input MyProject --main-jar myProject-1.0-SNAPSHOT.jar --main-class com.author.group.MyProject.Main --type app-image --icon D:\Projects\Java\MyProject\javaIcon.ico --dest installer --app-version 1.0.0 --vendor MyCompany --module-path "C:/java/javafx-sdk-23-0-1/lib;C:/java/lib/jSerialComm_v_2_11_2" --add-modules javafx.controls,javafx.fxml,javafx.graphics,java.desktop,javafx.swing,com.fazecast.jSerialComm --win-console --description "This is MyProgram" --java-options "-Dprism.order=sw -Dprism.verbose=true -Djava.library.path=C:/java/lib/javafx-sdk-23.0.1/bin"
 ```
