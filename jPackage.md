@@ -86,7 +86,7 @@ This flag will tell what type of application will be after compiling. I have tri
 ```
 <br>
 
-2. --icon <Filepath/to/Icon.ico>
+### --icon
 This flag takes in an `.ico` as an argument. This is the icon for the app. This needs the filepath to the icon.
 ```cmd
 --icon <path/to/icon.ico>
@@ -97,7 +97,7 @@ This flag takes in an `.ico` as an argument. This is the icon for the app. This 
 ```
 <br>
 
-2. --dest
+### --dest
 This below is out project structure. This flag takes in the excecutable file's destnation. The `.exe` will be in this folder.
 ```
 ├── src
