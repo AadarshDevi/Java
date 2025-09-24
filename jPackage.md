@@ -26,7 +26,7 @@ target is located in the root of project.
 │   └── myProject-1.0-SNAPSHOT.jar
 └── installer
 ```
-
+The input jar for `jpackage` is in /target
 ```cmd
 --input target
 ```
