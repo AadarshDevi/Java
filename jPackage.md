@@ -23,7 +23,7 @@ target is located in the root of project.
 │   │   └── resource
 ├── target
 │   ├── compiled files/folders
-│   └── myProject-1.0-SNAPSHOT.jar
+│   └── myProject-1.0-SNAPSHOT.jar (The JAR Compiled)
 └── installer
 ```
 The input jar for `jpackage` is in /target
