@@ -119,13 +119,44 @@ This below is out project structure. This flag takes in the excecutable file's d
 ```
 <br>
 
-2. --app-version 1.0.0
+### --app-version
+This flag is for the version of the app. This stores the version number of the project.
+```cmd
+--app-version <appVersion>
+```
+#### Example
+```cmd
+--app-version 1.0.0
+```
+<br>
 
-2. --vendor MyCompany
+### --vendor
+This flag takes in to store the organization of this java project.
+```cmd
+--vendor <companyThatCreatedTheProgram?
+```
+#### Example
+```cmd
+--vendor MyCompany
+```
+<br>
 
-2. --verbose
 
-2. --module-path
+### --verbose
+I do not know what this flag does.
+
+### --module-path
+The java project uses maven as a build tool. So we need to add all the libraries' .jar files to this. Without this, the program will not work properly. Use `;` to seperate filepaths of the jar files. The path given are the folders that contain the .jar files.
+```cmd
+--module-path single/jar/file/destination
+--module-path "single/jar/file/destination;another/jar/file/destination"
+```
+#### Example
+```cmd
+--module-path C:/java/javafx-sdk-23-0-1/lib
+--module-path "C:/java/javafx-sdk-23-0-1/lib;C:/java/lib/jSerialComm_v_2_11_2"
+```
+<br>
 
 2. --add-modules
 
