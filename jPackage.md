@@ -14,9 +14,9 @@ to use the jPackage commmand go to ther terminal and type:
 jpackage
 ```
 
-### **_IMPORTANT: From now on the following tags are added to jpackage_**
+## **_IMPORTANT: From now on the following tags are added to jpackage_**
 
-#### --input
+### --input
 This is where the generated jar file is located puts the code in the target folder of your javafx maven project. `/target` is located in the root of project.
 ```
 ├── src
@@ -33,17 +33,17 @@ The input jar for `jpackage` is in `/target`
 ```cmd
 --input <folder/to/myProject-1.0-SNAPSHOT.jar>
 ```
-##### Example
+#### Example
 ```cmd
 --input target
 ```
 
-#### --name
+### --name
 This flag is used to name the .exe/.msi file.
 ```cmd
 --name <projectName>
 ```
-##### Example
+#### Example
 Example:
 ```cmd
 --input MyProject
