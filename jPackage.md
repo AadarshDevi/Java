@@ -87,6 +87,15 @@ This flag will tell what type of application will be after compiling. I have tri
 <br>
 
 2. --icon <Filepath/to/Icon.ico>
+This flag takes in an `.ico` as an argument. This is the icon for the app. This needs the filepath to the icon.
+```cmd
+--icon <path/to/icon.ico>
+```
+#### Example
+```cmd
+--icon D:\Projects\Java\MyProject\javaIcon.ico
+```
+<br>
 
 2. --dest <TheFolder/where/the/built/project/will/beIn>
 
