@@ -176,11 +176,32 @@ By adding this flag, when app is running, it will open the app's terminal. This 
 --win-console
 ```
 
-2. --description
-
-2. --java-options
-
-## Final command
+### --description
+This adds a description of the app. When checking Task Manager, the threads will have this text.
 ```cmd
-jpackage --input target --name FloatDataRecorder_2_0 --main-jar float_data_recorder_2-1.0-SNAPSHOT.jar --main-class com.alphagen.studio.float_data_recorder_2.Launcher --type app-image --icon D:\College\Clubs\Miramar_Engineering_Club\float_data_recorder_2_icon.ico --dest installer --app-version 2.0.0 --vendor MiramarWaterJets --verbose --module-path "C:\development\java\lib\javafx-sdk-23.0.1\lib;C:\development\java\lib\jSerialComm_v_2_11_2" --add-modules javafx.controls,javafx.fxml,javafx.graphics,java.desktop,javafx.swing,com.fazecast.jSerialComm --win-console --description "MateROV Float Data Recorder" --java-options "-Dprism.order=sw -Dprism.verbose=true -Djava.library.path=C:\development\java\lib\javafx-sdk-23.0.1\bin"
+--description <programDescription>
+```
+#### Example
+```cmd
+--description "This is MyProgram"
+```
+<br>
+
+
+### --java-options
+I believe that this flag is used for vmargs the `String[] args` in `public stativ void main(String[] args)`. This is used so javafx will be able to run. This is used for libraries that have .dll files like javafx. Unlike the other flags, to have multiple arguments, to seperate them, add a space " " like in the example below. Explore the arguments for this flag before creating the executable.
+```cmd
+--java-options <vmargs>
+```
+#### Example
+```cmd
+--java-options "-Djava.library.path=C:/java/lib/javafx-sdk-23.0.1/bin"
+--java-options "-Dprism.order=sw -Djava.library.path=C:/java/lib/javafx-sdk-23.0.1/bin"
+```
+<br>
+
+
+## The Final jPackage Command
+```cmd
+jpackage --input target --input MyProject --main-jar myProject-1.0-SNAPSHOT.jar --main-class com.author.group.MyProject.Main --type app-image --icon D:\Projects\Java\MyProject\javaIcon.ico --dest installer --app-version 1.0.0 --vendor MyCompany --module-path "C:/java/javafx-sdk-23-0-1/lib;C:/java/lib/jSerialComm_v_2_11_2" --add-modules javafx.controls,javafx.fxml,javafx.graphics,java.desktop,javafx.swing,com.fazecast.jSerialComm --win-console --description "This is MyProgram" --java-options "-Dprism.order=sw -Djava.library.path=C:/java/lib/javafx-sdk-23.0.1/bin"
 ```
