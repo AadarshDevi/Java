@@ -13,8 +13,8 @@ to use the jPackage commmand go to ther terminal and type `jpackage`.
 
 #### --input target
 This is where the generated jar file is located puts the code in the target folder of your javafx maven project.
-If the jar `myProject-1.0-SNAPSHOT.jar` is located in /target in the project, then the passed data would be target.
-target is located in the root of project.
+If the jar `myProject-1.0-SNAPSHOT.jar` is located in `/target` in the project, then the passed data would be target.
+`/target` is located in the root of project.
 ```
 ├── src
 │   ├── main
@@ -26,7 +26,7 @@ target is located in the root of project.
 │   └── myProject-1.0-SNAPSHOT.jar (The JAR Compiled)
 └── installer
 ```
-The input jar for `jpackage` is in /target
+The input jar for `jpackage` is in `/target`
 ```cmd
 --input target
 ```
