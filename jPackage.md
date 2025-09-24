@@ -41,6 +41,7 @@ The input jar for `jpackage` is in `/target`
 ```cmd
 --input target
 ```
+<br>
 
 ### --name
 This flag is used to name the .exe/.msi file.
