@@ -16,7 +16,7 @@ jpackage
 
 ### **_IMPORTANT: From now on the following tags are added to jpackage_**
 
-#### --input target
+#### --input
 This is where the generated jar file is located puts the code in the target folder of your javafx maven project. `/target` is located in the root of project.
 ```
 ├── src
@@ -34,8 +34,11 @@ The input jar for `jpackage` is in `/target`
 --input target
 ```
 
-2. --name <ProjectName>
-> enter the project name
+#### --name
+This flag is used to name the .exe/.msi file.
+```cmd
+--name MyProject
+```
 
 Example:
 ```cmd
