@@ -62,10 +62,20 @@ This takes in the name of the jar file for input. Remember that this is .jar com
 ```cmd
 --main-jar myProject-1.0-SNAPSHOT.jar
 ```
+<br>
 
-2. --main-class
+### --main-class
+This flag is used to get the Main class of your java project. This needs to be the full path of the class. Meaning the class and its package.
+```cmd
+--main-class <the/package/of/Main.java>
+```
+#### Example
+```cmd
+--main-class com.author.group.MyProject.Main
+```
+<br>
 
-2. --type app-image
+### --type app-image
 
 2. --icon <Filepath/to/Icon.ico>
 
