@@ -13,6 +13,16 @@ to use the jPackage commmand go to ther terminal and type `jpackage`.
 this is where the generated jar file is located puts the code in the target folder of your javafx maven project.
 if the myProject_1.0-SNAPSHOT.jar is located in /target in the project, then the passed data would be target.
 target is located in the root of project.
+
+├── src
+│   ├── main.py
+│   └── utils.py
+├── data
+│   └── dataset.csv
+├── README.md
+└── requirements.txt
+
+
 ```cmd
 --input target
 ```
