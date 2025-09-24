@@ -6,7 +6,7 @@ etc,. In this document, I will explain some of the flags/commands I used to crea
 
 NOTE: All the commands are done in Command Prompt in the MyProject root folder.
 
-The jar `myProject-1.0-SNAPSHOT.jar` is located in `/target` in the project
+The jar `myProject-1.0-SNAPSHOT.jar` is located in `/target` in the project.
 
 ### Start jPackage
 to use the jPackage commmand go to ther terminal and type:
