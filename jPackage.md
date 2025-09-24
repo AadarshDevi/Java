@@ -133,7 +133,7 @@ This flag is for the version of the app. This stores the version number of the p
 ### --vendor
 This flag takes in to store the organization of this java project.
 ```cmd
---vendor <companyThatCreatedTheProgram?
+--vendor <companyThatCreatedTheProgram>
 ```
 #### Example
 ```cmd
@@ -149,7 +149,7 @@ I do not know what this flag does.
 The java project uses maven as a build tool. So we need to add all the libraries' .jar files to this. Without this, the program will not work properly. Use `;` to seperate filepaths of the jar files. The path given are the folders that contain the .jar files.
 ```cmd
 --module-path single/jar/file/destination
---module-path "single/jar/file/destination;another/jar/file/destination"
+--module-path "one/jar/file/destination;another/jar/file/destination"
 ```
 #### Example
 ```cmd
@@ -158,9 +158,23 @@ The java project uses maven as a build tool. So we need to add all the libraries
 ```
 <br>
 
-2. --add-modules
+### --add-modules
+Now that we have the paths for the libraries, we need to add them to be used. Without adding the jars, the paths are useless. To add multiple jars, add them by writing their names of the .jar files. `javafx-controls` from `pom.xml` has a `javafx.controls.jar` in javafx lib folder.
+```cmd
+--add-modules <jarFileNames>
+```
+#### Example
+```cmd
+--add-modules javafx.controls
+--add-modules javafx.controls,javafx.fxml,javafx.graphics,java.desktop,javafx.swing,com.fazecast.jSerialComm
+```
+<br>
 
-2. --win-console
+### --win-console
+By adding this flag, when app is running, it will open the app's terminal. This can be used for debugging.
+```cmd
+--win-console
+```
 
 2. --description
 
