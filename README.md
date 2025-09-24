@@ -8,38 +8,20 @@ become a one stop for Java related content.
 ## Java Basics
 1.
 2.
-3.
-4.
-5.
-6.
-7.
 
 ## JavaFX
 1.
 2.
-3.
-4.
-5.
-6.
-7.
 
 ## Java Sound API
 1.
 2.
-3.
-4.
-5.
-6.
-7.
 
 
 ## Java Database JDBC
 1.
 2.
-3.
-4.
-5.
-6.
-7.
-8.
 
+## Create an Excecutable
+1. 
+2. 
