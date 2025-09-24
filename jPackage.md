@@ -47,8 +47,6 @@ This flag is used to name the .exe/.msi file.
 #### Example
 ```cmd
 --input MyProject
-```
-```cmd
 --input "My Project"
 ```
 <br>
