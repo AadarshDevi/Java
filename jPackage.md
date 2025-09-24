@@ -75,7 +75,18 @@ This flag is used to get the Main class of your java project. This needs to be t
 ```
 <br>
 
-### --type app-image
+### --type
+This flag will tell what type of application will be after compiling. I have tried only `app-image` but `exe` and `msi` are some of the valid arguments.
+```cmd
+--type <typeOfExcecutable>
+```
+#### Example
+```cmd
+--type app-image
+--type exe
+--type msi
+```
+<br>
 
 2. --icon <Filepath/to/Icon.ico>
 
