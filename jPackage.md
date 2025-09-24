@@ -4,10 +4,10 @@
 jPackage is a java tool that comes with the JDK. This is used to convert java projects into .exe, .msi,
 etc,. In this document, I will explain some of the flags/commands I used to create my .exe.
 
-# Start jPackage
+### Start jPackage
 to use the jPackage commmand go to ther terminal and type `jpackage`.
 
-#### **_From now on add the following tags._**
+### **_From now on add the following tags._**
 
 2. --input target
 > this is where the generated jar file is located puts the code in the target folder of your javafx maven project.
