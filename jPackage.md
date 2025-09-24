@@ -33,6 +33,7 @@ The input jar for `jpackage` is in `/target`
 ```cmd
 --input <folder/to/myProject-1.0-SNAPSHOT.jar>
 ```
+##### Example
 ```cmd
 --input target
 ```
@@ -42,10 +43,14 @@ This flag is used to name the .exe/.msi file.
 ```cmd
 --name <projectName>
 ```
-
+##### Example
 Example:
 ```cmd
---input MyJavaFXMavenProject
+--input MyProject
+```
+Example:
+```cmd
+--input "My Project"
 ```
 
 > I do not know if the below works.
