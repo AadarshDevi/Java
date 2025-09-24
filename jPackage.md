@@ -9,7 +9,10 @@ NOTE: All the commands are done in Command Prompt in the MyProject root folder.
 The jar `myProject-1.0-SNAPSHOT.jar` is located in `/target` in the project
 
 ### Start jPackage
-to use the jPackage commmand go to ther terminal and type `jpackage`.
+to use the jPackage commmand go to ther terminal and type:
+```cmd
+jpackage
+```
 
 ### **_IMPORTANT: From now on the following tags are added to jpackage_**
 
