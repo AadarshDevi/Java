@@ -6,7 +6,7 @@ etc,. In this document, I will explain some of the flags/commands I used to crea
 
 _**NOTE**_: All the commands are done in Command Prompt in the MyProject root folder.<br>
 In my command prompt I see that I am in my java project.
-```cmd
+```
 PS D:\Projects\Java\MyProject>
 ```
 
