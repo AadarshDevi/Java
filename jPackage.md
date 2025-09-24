@@ -97,7 +97,27 @@ This flag takes in an `.ico` as an argument. This is the icon for the app. This 
 ```
 <br>
 
-2. --dest <TheFolder/where/the/built/project/will/beIn>
+2. --dest
+This below is out project structure. This flag takes in the excecutable file's destnation. The `.exe` will be in this folder.
+```
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │    └── Main.java
+│   │   └── resource
+├── target
+│   ├── compiled files/folders
+│   └── myProject-1.0-SNAPSHOT.jar (The JAR Compiled)
+└── installer
+```
+```cmd
+--dest <destination\of\myProject.exe>
+```
+#### Example
+```cmd
+--dest installer
+```
+<br>
 
 2. --app-version 1.0.0
 
