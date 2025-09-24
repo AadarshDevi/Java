@@ -4,9 +4,8 @@
 jPackage is a java tool that comes with the JDK. This is used to convert java projects into .exe, .msi,
 etc,. In this document, I will explain some of the flags/commands I used to create my .exe.
 
-```cmd
-jpackage
-```
+# Start jPackage
+to use the jPackage commmand go to ther terminal and type `jpackage`.
 
 **_From now on add the following tags._**
 
