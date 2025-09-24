@@ -7,10 +7,15 @@ etc,. In this document, I will explain some of the flags/commands I used to crea
 ### Start jPackage
 to use the jPackage commmand go to ther terminal and type `jpackage`.
 
-### **_From now on add the following tags._**
+### **_From now on the following tags are added to jpackage_**
 
-2. --input target
-> this is where the generated jar file is located puts the code in the target folder of your javafx maven project.
+#### --input target
+this is where the generated jar file is located puts the code in the target folder of your javafx maven project.
+if the myProject_1.0-SNAPSHOT.jar is located in /target in the project, then the passed data would be target.
+target is located in the root of project.
+```cmd
+--input target
+```
 
 2. --name <ProjectName>
 > enter the project name
