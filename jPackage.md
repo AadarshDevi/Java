@@ -1,5 +1,5 @@
 
-# JPackage
+# jPackage
 
 jPackage is a java tool that comes with the JDK. This is used to convert java projects into .exe, .msi,
 etc,. In this document, I will explain some of the flags/commands I used to create my .exe.
