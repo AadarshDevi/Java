@@ -91,7 +91,7 @@ This flag will tell what type of application will be after compiling. I have tri
 <br>
 
 ### --icon
-This flag takes in an `.ico` as an argument. This is the icon for the app. This needs the filepath to the icon.
+This flag takes in an `.ico` as an argument. This is the icon for the app. This needs the filepath to the icon.<br>
 **###### NOTE: This can be done in the javafx project itself.**
 ```cmd
 --icon <path/to/icon.ico>
